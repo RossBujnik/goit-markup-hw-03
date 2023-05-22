@@ -240,10 +240,19 @@ h3 {
 .footer-background-01 {
   background-color: #2f303a;
   max-width: 1600px;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
 }
 
 .footer-background-02 {
   background-color: #2f303a;
+  max-width: 1600px;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
 }
 
 .brand-name03 {
