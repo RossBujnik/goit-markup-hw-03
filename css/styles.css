@@ -1,6 +1,9 @@
 /* Porfolio */
 
 /* Header */
+* {
+  box-sizing: border-box;
+}
 
 .container {
   width: 1200px;
@@ -9,18 +12,15 @@
 
 .container-header {
   max-width: 1600px;
-  height: 80px;
   border-bottom: solid;
   border-color: #ececec;
   border-width: 1px;
 }
 
 .navi-header {
-  display: flex;
   flex-direction: row;
   align-items: baseline;
   max-width: 1600px;
-  height: 80px;
   list-style: none;
   padding-bottom: 25px;
   padding-top: 24px;
@@ -34,7 +34,7 @@
 }
 .navi-header-right {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 50px;
   list-style: none;
   padding-left: 227px;
@@ -64,13 +64,14 @@ a {
 }
 
 .main_part {
-  max-width: 1600px;
-  max-height: 600px;
+  flex-direction: column;
+  width: 1600px;
   top: 80px;
   left: -15px;
   background-color: #2f303a;
 }
 h1 {
+  justify-content: center;
   width: 696px;
   height: 120px;
   margin-top: 0px;
@@ -203,7 +204,20 @@ h2 {
   text-align: center;
 }
 
+.activity {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1600px;
+}
+
 /* Nasz zespół */
+
+.our-team {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
 h3 {
   font-family: Roboto;
@@ -225,6 +239,7 @@ h3 {
 
 .footer-background-01 {
   background-color: #2f303a;
+  max-width: 1600px;
 }
 
 .footer-background-02 {
