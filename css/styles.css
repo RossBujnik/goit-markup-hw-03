@@ -316,3 +316,19 @@ h3 {
   list-style: none;
   background-color: #ffffff;
 }
+.navi-buttons-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.images-portfolio {
+  display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  /* Set gap between rows and columns */
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
