@@ -1,8 +1,12 @@
-/* Porfolio */
-
 /* Header */
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1.4em;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
 }
 
 .container {
@@ -17,26 +21,31 @@
 }
 
 .navi-header {
+  height: 80px;
   flex-direction: row;
   align-items: baseline;
+  list-style: none;
+  border-bottom: solid;
+  border-color: #ececec;
+  border-width: 1px;
+  justify-content: space-between;
+}
+.navi-header-left {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 46px;
   list-style: none;
   padding-bottom: 25px;
   padding-top: 24px;
 }
-.navi-header-left {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  gap: 46px;
-  list-style: none;
-}
 .navi-header-right {
-  display: flex;
-  justify-content: flex-end;
-  gap: 50px;
-  list-style: none;
-  padding-left: 227px;
+  display: inline-flex;
   align-items: baseline;
+  gap: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  justify-content: flex-end;
+  list-style: none;
 }
 
 a {
@@ -63,23 +72,20 @@ a {
 
 .main_part {
   flex-direction: column;
-  top: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  height: 600px;
   left: -15px;
   background-color: #2f303a;
 }
 h1 {
-  justify-content: center;
-  width: 696px;
-  height: 120px;
-  margin-top: 0px;
   font-size: 44px;
   font-weight: 900;
   padding-top: 200px;
   color: #ffffff;
-  text-align: center;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 .main-button {
   background-color: #2196f3;
@@ -87,9 +93,7 @@ h1 {
   font-weight: 700;
   line-height: 1.875;
   width: 200px;
-  height: 50px;
   padding: 10px 0;
-  margin: 30px 500px 200px 500px;
   letter-spacing: 0.06em;
 }
 
