@@ -1,4 +1,9 @@
 /* Header */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +18,7 @@
   width: 1200px;
   margin: 0 auto;
 }
-.main-container {
-  margin: 0 auto;
-  padding-top: 200px;
-}
+
 div {
   display: block;
 }
@@ -25,12 +27,13 @@ div {
   border-bottom: solid;
   border-color: #ececec;
   border-width: 1px;
+  justify-content: space-between;
 }
 
 .navi-header {
   height: 80px;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
   list-style: none;
   border-bottom: solid;
   border-color: #ececec;
@@ -39,7 +42,7 @@ div {
 }
 .navi-header-left {
   display: inline-flex;
-  align-items: baseline;
+  align-items: center;
   gap: 46px;
   list-style: none;
   padding-bottom: 25px;
@@ -47,10 +50,8 @@ div {
 }
 .navi-header-right {
   display: inline-flex;
-  align-items: baseline;
+  align-items: center;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
   justify-content: flex-end;
   list-style: none;
 }
@@ -100,7 +101,7 @@ h1 {
   background-color: #2196f3;
   color: #ffffff;
   font-weight: 700;
-  padding-bottom: 210px;
+  padding-top: 650px;
   line-height: 1.875;
   width: 200px;
   padding: 10px 0;
@@ -211,6 +212,7 @@ h2 {
   font-family: Roboto;
   color: #212121;
   font-size: 36px;
+  padding-top: 94px;
   font-weight: 700;
   line-height: 1, 17;
   text-align: center;
@@ -218,6 +220,8 @@ h2 {
 
 .activity {
   display: flex;
+  padding-top: 50px;
+  padding-bottom: 94px;
   justify-content: center;
   gap: 30px;
 }
@@ -227,23 +231,34 @@ h2 {
 .our-team {
   display: flex;
   justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 94px;
   gap: 30px;
 }
 
 h3 {
   font-family: Roboto;
   color: #212121;
+  background-color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1, 17;
+  padding-top: 30px;
+  padding-left: 99px;
 }
 
 .position {
   font-family: Roboto;
   color: #757575;
+  background-color: #ffffff;
   font-size: 16px;
   font-weight: 400;
   line-height: 1, 17;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 /* Footer */

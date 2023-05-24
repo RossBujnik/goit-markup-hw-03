@@ -5,13 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zadanie domowe nr3</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -19,6 +12,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <style>
       body {
         font-family: "Roboto", sans-serif;
@@ -28,52 +28,46 @@
   </head>
   <body>
     <header>
-      <section>
-        <div class="container">
-          <!--top line bg-->
-          <div class="navi-header">
-            <ul>
-              <div class="navi-header-left">
-                <li>
-                  <a href="index.html"
-                    ><span class="brand-name01">Web</span
-                    ><span class="brand-name02">Studio</span></a
-                  >
-                </li>
-                <li><a class="menu" href="#">Agencja</a></li>
-                <li>
-                  <a class="menu" href="portfolio.html">Portfolio</a>
-                </li>
-                <li><a class="menu" href="#">Kontakt</a></li>
-              </div>
-              <div class="navi-header-right">
-                <li>
-                  <a class="contacts" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <li>
-                  <a class="contacts" href="tel:+48111111111"
-                    >+48 111 111 111</a
-                  >
-                </li>
-              </div>
-            </ul>
-          </div>
+      <div class="container">
+        <!--top line bg-->
+        <div class="navi-header">
+          <ul>
+            <div class="navi-header-left">
+              <li>
+                <a href="index.html"
+                  ><span class="brand-name01">Web</span
+                  ><span class="brand-name02">Studio</span></a
+                >
+              </li>
+              <li><a class="menu" href="#">Agencja</a></li>
+              <li>
+                <a class="menu" href="portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="menu" href="#">Kontakt</a></li>
+            </div>
+            <div class="navi-header-right">
+              <li>
+                <a class="contacts" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contacts" href="tel:+48111111111">+48 111 111 111</a>
+              </li>
+            </div>
+          </ul>
         </div>
-      </section>
+      </div>
     </header>
     <!--Header-->
     <main>
       <section class="main_part">
         <div class="container">
-          <div class="main-container">
-            <h1>
-              EFEKTYWNE ROZWIĄZANIA<br />
-              DLA WASZEGO BIZNESU
-            </h1>
-            <button class="main-button" type="button">Zamów usługę</button>
-          </div>
+          <h1>
+            EFEKTYWNE ROZWIĄZANIA<br />
+            DLA WASZEGO BIZNESU
+          </h1>
+          <button class="main-button" type="button">Zamów usługę</button>
         </div>
       </section>
       <!--Nasze atuty-->
@@ -190,12 +184,10 @@
         </ul>
       </section>
     </main>
-
-    <!--Footer-->
-
     <footer>
+      <!--Footer-->
       <div class="container">
-        <div class=".footer-background-01">
+        <section class="footer-background-01">
           <p>
             <span class="brand-name03">Web</span>
             <span class="brand-name04">Studio</span>
@@ -219,7 +211,7 @@
               </li>
             </ul>
           </address>
-        </div>
+        </section>
       </div>
     </footer>
   </body>
