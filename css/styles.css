@@ -269,6 +269,7 @@ h3 {
   justify-content: flex-start;
   align-items: flex-start;
   list-style: none;
+  padding-top: 60px;
 }
 
 .footer-background-02 {
@@ -295,6 +296,10 @@ h3 {
   font-weight: 700;
   line-height: 1, 17;
   text-decoration: none;
+}
+.adress-regular {
+  padding-top: 9px;
+  letter-spacing: 3%;
 }
 
 .place {
@@ -343,15 +348,27 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.buttons-portfolio-look {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-portfolio-look {
+  padding-top: 94px;
   gap: 8px;
+  line-height: 1, 62;
 }
 
 .images-portfolio {
   display: flex;
-  /* Make a flex container multiline */
   flex-wrap: wrap;
-  /* Set gap between rows and columns */
   gap: 10px;
-  padding: 0;
+  padding-top: 50px;
   list-style: none;
+}
+
+.space-for-pictures {
+  padding-top: 50px;
 }
