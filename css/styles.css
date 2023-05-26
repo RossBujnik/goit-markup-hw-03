@@ -23,25 +23,18 @@ div {
   display: block;
 }
 
-.container-header {
-  border-bottom: solid;
-  border-color: #ececec;
-  border-width: 1px;
-  justify-content: space-between;
-}
-
 .navi-header {
   height: 80px;
   flex-direction: row;
-  align-items: center;
   list-style: none;
+  align-items: baseline;
   border-bottom: solid;
   border-color: #ececec;
   border-width: 1px;
-  justify-content: space-between;
 }
 .navi-header-left {
   display: inline-flex;
+  justify-content: flex-start;
   align-items: center;
   gap: 46px;
   list-style: none;
@@ -50,10 +43,12 @@ div {
 }
 .navi-header-right {
   display: inline-flex;
+  justify-content: flex-end;
   align-items: center;
   gap: 50px;
-  justify-content: flex-end;
   list-style: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 a {
@@ -184,7 +179,8 @@ main-button {
 .lorem {
   display: flex;
   padding-top: 94px;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
 }
 .main {
   font-family: Roboto;
@@ -344,21 +340,31 @@ h3 {
   list-style: none;
   background-color: #ffffff;
 }
-.navi-buttons-portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.buttons-portfolio-look {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .buttons-portfolio-look {
-  padding-top: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.menu-for-portfolio {
+  display: flex;
   gap: 8px;
-  line-height: 1, 62;
+  border-radius: 4px;
+  padding-top: 6px;
+}
+.portfolio-buttons {
+  padding-top: 6px;
+  padding-right: 20px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+}
+.portfolio-button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.space-for-pictures {
+  padding-top: 50px;
 }
 
 .images-portfolio {
@@ -367,8 +373,4 @@ h3 {
   gap: 10px;
   padding-top: 50px;
   list-style: none;
-}
-
-.space-for-pictures {
-  padding-top: 50px;
 }
