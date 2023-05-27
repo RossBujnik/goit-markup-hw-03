@@ -24,10 +24,9 @@ div {
 }
 
 .navi-header {
-  height: 80px;
   flex-direction: row;
   list-style: none;
-  align-items: baseline;
+  align-items: center;
   border-bottom: solid;
   border-color: #ececec;
   border-width: 1px;
@@ -38,8 +37,9 @@ div {
   align-items: center;
   gap: 46px;
   list-style: none;
-  padding-bottom: 25px;
   padding-top: 24px;
+  padding-bottom: 25px;
+  padding-right: 371px;
 }
 .navi-header-right {
   display: inline-flex;
@@ -365,6 +365,7 @@ h3 {
 }
 .space-for-pictures {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .images-portfolio {
