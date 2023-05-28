@@ -21,7 +21,7 @@
 .header-settings {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 80px;
   border-bottom: #ececec;
   border-bottom-style: solid;
@@ -57,10 +57,12 @@ a {
   font-weight: 700;
   line-height: 1, 17;
   text-decoration: none;
+  padding-right: 93px;
 }
 .menu-gaps {
   display: inline-flex;
   gap: 46px;
+  padding-right: 371px;
 }
 .contacts-gaps {
   display: inline-flex;
@@ -153,13 +155,10 @@ main-button {
 
 /* Nasze atuty */
 
-.description {
-  display: flex;
-  justify-content: space-around;
-}
 .lorem {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   padding-top: 94px;
   gap: 30px;
 }
@@ -241,7 +240,7 @@ h3 {
 
 /* Footer */
 
-.footer-background-01 {
+.footer-background {
   background-color: #2f303a;
   display: block;
   justify-content: flex-start;
@@ -265,12 +264,12 @@ h3 {
   font-weight: 700;
   line-height: 1, 17;
   text-decoration: none;
+  padding-bottom: 9px;
 }
 .adress-regular {
-  padding-top: 9px;
   padding-bottom: 60px;
+  padding-top: 20px;
   gap: 9px;
-  letter-spacing: 3%;
 }
 
 .place {
@@ -280,6 +279,7 @@ h3 {
   font-weight: 400;
   line-height: 1, 71;
   text-decoration: none;
+  padding-bottom: 9px;
 }
 .call_write {
   font-family: Roboto;
