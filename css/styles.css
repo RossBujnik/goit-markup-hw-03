@@ -49,7 +49,6 @@ a {
   font-weight: 700;
   line-height: 1, 17;
   text-decoration: none;
-  padding-left: 51px;
 }
 .brand-name02 {
   font-family: Raleway;
@@ -74,7 +73,6 @@ a {
   font-weight: 500;
   line-height: 1, 17;
   text-decoration: none;
-  padding-right: 27px;
 }
 
 .main_part {
@@ -92,6 +90,7 @@ h1 {
   font-size: 44px;
   font-weight: 900;
   padding-top: 200px;
+  padding-bottom: 40px;
   color: #ffffff;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -155,18 +154,13 @@ main-button {
 /* Nasze atuty */
 
 .description {
-  display: inline;
-  padding: 94px 0 94px 0;
-  max-width: 1170px;
-  max-height: 101px;
-  top: 774px;
-  left: 215px;
-  border-bottom: solid;
+  display: flex;
+  justify-content: space-around;
 }
 .lorem {
   display: flex;
+  justify-content: space-around;
   padding-top: 94px;
-  justify-content: center;
   gap: 30px;
 }
 .main {
@@ -175,6 +169,7 @@ main-button {
   font-size: 14px;
   font-weight: 700;
   line-height: 1, 17;
+  padding-bottom: 10px;
 }
 .contents {
   font-family: Roboto;
