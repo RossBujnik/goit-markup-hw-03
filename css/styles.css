@@ -181,10 +181,6 @@ main-button {
 
 /* Czym się zajmujemy */
 
-.team {
-  background-color: #f5f4fa;
-}
-
 h2 {
   font-family: Roboto;
   color: #212121;
@@ -204,13 +200,21 @@ h2 {
 }
 
 /* Nasz zespół */
+.team {
+  background-color: #f5f4fa;
+}
 
 .our-team {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 94px;
-  gap: 30px;
+}
+/* material shadow v1 */
+.our-team-02 {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 h3 {
