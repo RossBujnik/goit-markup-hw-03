@@ -18,37 +18,20 @@
   width: 1200px;
   margin: 0 auto;
 }
-
-div {
-  display: block;
+.header-settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
 }
 
-.navi-header {
-  flex-direction: row;
-  list-style: none;
-  align-items: center;
-  border-bottom: solid;
-  border-color: #ececec;
-  border-width: 1px;
-}
-.navi-header-left {
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 46px;
-  list-style: none;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  padding-right: 371px;
-}
-.navi-header-right {
-  display: inline-flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 50px;
-  list-style: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.menu {
+  font-family: Roboto;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 17;
+  text-decoration: none;
 }
 
 a {
@@ -63,6 +46,7 @@ a {
   font-weight: 700;
   line-height: 1, 17;
   text-decoration: none;
+  padding-left: 51px;
 }
 .brand-name02 {
   font-family: Raleway;
@@ -71,6 +55,23 @@ a {
   font-weight: 700;
   line-height: 1, 17;
   text-decoration: none;
+}
+.menu-gaps {
+  display: inline-flex;
+  gap: 46px;
+}
+.contacts-gaps {
+  display: inline-flex;
+  gap: 50px;
+}
+.contacts {
+  font-family: Roboto;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 17;
+  text-decoration: none;
+  padding-right: 27px;
 }
 
 .main_part {
@@ -111,29 +112,12 @@ h1 {
   line-height: 1, 36;
 }
 
-.menu {
-  font-family: Roboto;
-  color: #212121;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1, 17;
-  text-decoration: none;
-}
-
 ul {
   list-style-type: none;
 }
 
 .menu:hover {
   color: #2196f3;
-}
-.contacts {
-  font-family: Roboto;
-  color: #757575;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1, 17;
-  text-decoration: none;
 }
 .contacts:hover {
   color: #2196f3;
